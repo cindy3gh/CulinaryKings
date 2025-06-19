@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
 // import { Link } from "react-router-dom";
-
+import { BsMicrosoft } from "react-icons/bs";
 import One from "./assets/one.jpeg";
 import Two from "./assets/two.jpeg";
 import Three from "./assets/three.jpeg";
@@ -117,7 +117,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
             to="/microsoft"
             className="flex items-center justify-center gap-2 bg-blue-600 text-white py-3 rounded-lg"
           >
-            <FaFacebookF /> Microsoft
+            <BsMicrosoft /> Microsoft
           </Link>
         </div>
       </div>
