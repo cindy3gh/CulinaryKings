@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
 // import { Link } from "react-router-dom";
 import { BsMicrosoft } from "react-icons/bs";
