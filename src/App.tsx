@@ -107,7 +107,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
         </h3>
         <div className="mt-8 flex flex-col gap-4">
           <Link
-            to="/instagram"
+            to="/mail"
             className="flex items-center justify-center gap-2 bg-pink-600 text-white py-3 rounded-lg"
           >
             <IoMdMail /> Email
