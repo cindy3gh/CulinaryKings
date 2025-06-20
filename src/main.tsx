@@ -11,7 +11,7 @@ createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <Routes>
         <Route index element={<App />} />
-        <Route path="instagram" element={<Instagram />} />
+        <Route path="mail" element={<Instagram />} />
         <Route path="microsoft" element={<Email />} />
       </Routes>
     </BrowserRouter>

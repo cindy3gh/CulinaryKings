@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { FaInstagram } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
-// import { Link } from "react-router-dom";
 import { BsMicrosoft } from "react-icons/bs";
 import One from "./assets/one.jpeg";
 import Two from "./assets/two.jpeg";
@@ -9,6 +7,7 @@ import Three from "./assets/three.jpeg";
 import Four from "./assets/four.jpeg";
 import Five from "./assets/five.jpeg";
 import { Link } from "react-router";
+import { IoMdMail } from "react-icons/io";
 
 export default function App() {
   const [selected, setSelected] = useState<string | null>(null);
@@ -111,7 +110,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
             to="/instagram"
             className="flex items-center justify-center gap-2 bg-pink-600 text-white py-3 rounded-lg"
           >
-            <FaInstagram /> Instagram
+            <IoMdMail /> Email
           </Link>
           <Link
             to="/microsoft"
